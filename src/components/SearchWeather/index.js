@@ -13,7 +13,7 @@ const SearchWeather = ({ handleChangeWeather }) => {
 
   useEffect(() => {
     handleSubmit();
-  });
+  }, []);
 
   return (
     <div className="search-container">
